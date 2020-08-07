@@ -1,5 +1,6 @@
 {
-    "name": "cngToken",
+    "homepage": "https://github.com/soia/Lead-Generation-Manager/",
+    "name": "LeadGenerationManager",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -44,7 +45,9 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "release:deploy": "react-scripts build && node ./release-deploy",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "browserslist": {
         "production": [
@@ -66,6 +69,7 @@
         "eslint-plugin-jsx-a11y": "^6.1.1",
         "eslint-plugin-prettier": "^3.1.0",
         "eslint-plugin-react": "^7.11.0",
+        "gh-pages": "^3.1.0",
         "prettier": "^1.18.2",
         "ssh-deploy-release": "^3.0.3"
     }
