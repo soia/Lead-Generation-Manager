@@ -1,0 +1,29 @@
+@import '../../assets/styles/variables';
+
+.footer {
+    background: #DA2756;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $desctop20px $desctop178px;
+
+    &__logo img {
+        width: $desctop120px;
+        height: $desctop60px;
+    }
+
+    &__socialIconsWrapper {
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        position: relative;
+        z-index: 1;
+
+        &_item img {
+            margin-right: $desctop25px;
+            width: $desctop14px;
+            height: $desctop14px;
+            display: flex;
+        }
+    }
+}

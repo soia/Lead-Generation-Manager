@@ -1,0 +1,24 @@
+@import '../../../assets/styles/variables';
+@import '../../../assets/styles/mixin';
+
+.whatsThis {
+    margin: 0 $desctop160px $desctop160px $desctop160px;
+
+    &__title {
+        font-family: $CeraProMedium;
+        font-size: $desctop34px;
+        line-height: $desctop55px;
+        color: #000;
+        text-align: center;
+        margin-bottom: $desctop32px;
+    }
+
+    &__subTitle {
+        font-family: $CeraProLight;
+        font-size: $desctop16px;
+        line-height: $desctop30px;
+        text-align: center;
+        color: #000;
+        margin-bottom: $desctop32px;
+    }
+}

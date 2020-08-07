@@ -1,0 +1,31 @@
+@import '../../assets/styles/variables';
+@import '../../assets/styles/mixin';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: $desctop160px;
+    padding: $desctop25px $desctop178px $desctop25px 0;
+    border-bottom: $desctop1px solid rgba(0, 0, 0, 0.08);
+
+    &__logo img {
+        width: $desctop120px;
+        height: $desctop60px;
+    }
+
+    &__socialIconsWrapper {
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        position: relative;
+        z-index: 1;
+
+        &_item img {
+            margin-right: $desctop25px;
+            width: $desctop14px;
+            height: $desctop14px;
+            display: flex;
+        }
+    }
+}

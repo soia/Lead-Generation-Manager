@@ -1,0 +1,49 @@
+@import '../../../assets/styles/variables';
+@import '../../../assets/styles/mixin';
+
+.firstScreen {
+    padding: 6.74vw 0 $desctop104px $desctop160px;
+
+    &__title {
+        font-family: $CeraProMedium;
+        font-size: $desctop34px;
+        line-height: $desctop55px;
+        color: #000;
+    }
+
+    &__subTitle {
+        font-family: $CeraProLight;
+        font-size: $desctop13px;
+        line-height: $desctop25px;
+        color: #4A4A4A;
+        max-width: 29.9vw;
+        margin-bottom: $desctop36px;
+    }
+
+    &__button {
+        background: #DA2756;
+        border-radius: $desctop4px;
+        font-family: $CeraProMedium;
+        font-size: $desctop14px;
+        line-height: $desctop18px;
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid transparent;
+        padding: $desctop20px $desctop45px;
+        text-decoration: none;
+
+        &:hover {
+            border: 1px solid #DA2756;
+            color: #DA2756;
+            background: transparent;
+        }
+    }
+
+    &__background {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 77.5vw;
+        height: 58.5vw;
+    }
+}
