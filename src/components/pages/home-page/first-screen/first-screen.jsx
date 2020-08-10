@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactWOW from 'react-wow';
+import LGM_WP from '../../../assets/LGM_WP.pdf';
 import background from './images/firstScreenBg.svg';
 
 import style from './first-screen.module.scss';
@@ -24,8 +25,13 @@ const FirstScreen = () => (
                     process.
                 </h3>
             </section>
-            <a href="/" target="_blank" className={style.firstScreen__button}>
-            View Whitepaper
+            <a
+                href={LGM_WP}
+                className={style.firstScreen__button}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Whitepaper
             </a>
         </ReactWOW>
         <ReactWOW

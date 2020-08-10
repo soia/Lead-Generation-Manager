@@ -36,32 +36,32 @@ const TokenLeadGeneration = () => (
                         <img className={style.tokenDistribution__item_img} src={oval} alt="oval" />
                         <div>
                             <p className={style.tokenDistribution__item_title}>IEO</p>
-                            <p className={style.tokenDistribution__item_subTitle}>100 000 LGM</p>
+                            <p className={style.tokenDistribution__item_subTitle}>10 000 000 LGM</p>
                         </div>
                     </div>
                     <div className={style.tokenDistribution__item}>
                         <img className={style.tokenDistribution__item_img} src={oval} alt="oval" />
                         <div>
-                            <p className={style.tokenDistribution__item_title}>IEO</p>
-                            <p className={style.tokenDistribution__item_subTitle}>100 000 LGM</p>
+                            <p className={style.tokenDistribution__item_title}>Airdrop</p>
+                            <p className={style.tokenDistribution__item_subTitle}>5 000 000 LGM</p>
                         </div>
                     </div>
                     <div className={style.tokenDistribution__item}>
                         <img className={style.tokenDistribution__item_img} src={oval} alt="oval" />
                         <div>
-                            <p className={style.tokenDistribution__item_title}>IEO</p>
-                            <p className={style.tokenDistribution__item_subTitle}>100 000 LGM</p>
+                            <p className={style.tokenDistribution__item_title}>Staking Pool</p>
+                            <p className={style.tokenDistribution__item_subTitle}>5 000 000 LGM</p>
                         </div>
                     </div>
                     <div className={style.tokenDistribution__item}>
                         <img className={style.tokenDistribution__item_img} src={oval} alt="oval" />
                         <div>
-                            <p className={style.tokenDistribution__item_title}>IEO</p>
-                            <p className={style.tokenDistribution__item_subTitle}>100 000 LGM</p>
+                            <p className={style.tokenDistribution__item_title}>Team</p>
+                            <p className={style.tokenDistribution__item_subTitle}>1 000 000 LGM</p>
                         </div>
                     </div>
                 </div>
-                <p className={style.totalCapitalization}>Total capitalization:550,000,000 million</p>
+                <p className={style.totalCapitalization}>Total capitalization: 21 000 000 million</p>
             </section>
         </ReactWOW>
         <img
