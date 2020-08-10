@@ -27,7 +27,7 @@ const App = () => {
         <Router>
             <Header />
             <Switch>
-                <Route path="/Lead-Generation-Manager/" component={HomePage} exact />
+                <Route path="/" component={HomePage} exact />
                 <Route component={PageNotFound} />
             </Switch>
             <Footer />
