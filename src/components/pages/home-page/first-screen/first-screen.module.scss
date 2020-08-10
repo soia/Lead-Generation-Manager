@@ -82,6 +82,8 @@
 
     &__mobileBackground {
         display: none;
+        width: 78vw;
+        height: 114vw;
 
         @media only screen and (max-width: 499px) {
             display: block;
