@@ -12,7 +12,7 @@ const RoadMap = () => (
             animation="fadeInUp"
             delay="0.01s"
         >
-            <h3 className={style.roadMap__title}>Road maps</h3>
+            <h3 className={style.roadMap__title}>Road map</h3>
             <img className={style.roadMap__roadMapImage} src={roadMapImage} alt="roadMapImage" />
             <img className={style.roadMap__mobileRoadmap} src={mobileRoadmap} alt="mobileRoadmap" />
         </ReactWOW>
