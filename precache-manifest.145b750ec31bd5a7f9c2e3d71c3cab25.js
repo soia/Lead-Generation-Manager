@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20afb785c4a74f21ad11a90f9e6fb056",
+    "revision": "c3710d645e1273c9765e2db27f3bc1c5",
     "url": "/Lead-Generation-Manager/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Lead-Generation-Manager/static/css/2.eeec9e7d.chunk.css"
   },
   {
-    "revision": "f1f7c92d8b613f175691",
+    "revision": "06da793b55c8fb12d75d",
     "url": "/Lead-Generation-Manager/static/css/main.c885dd1c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Lead-Generation-Manager/static/js/2.7f3bda7f.chunk.js"
   },
   {
-    "revision": "f1f7c92d8b613f175691",
-    "url": "/Lead-Generation-Manager/static/js/main.6eae5bcd.chunk.js"
+    "revision": "06da793b55c8fb12d75d",
+    "url": "/Lead-Generation-Manager/static/js/main.efac3aa3.chunk.js"
   },
   {
     "revision": "3206f4b5b5434f17d53e",
@@ -92,12 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Lead-Generation-Manager/static/media/error.21a84586.jpg"
   },
   {
-    "revision": "bc53ee568c46e2e16450cb825389390b",
-    "url": "/Lead-Generation-Manager/static/media/facebook.bc53ee56.svg"
-  },
-  {
     "revision": "3e89403362f8cc0557344ed066d31237",
     "url": "/Lead-Generation-Manager/static/media/firstScreenBg.3e894033.svg"
+  },
+  {
+    "revision": "f9250684cc972a16657e4c0fd378d8c0",
+    "url": "/Lead-Generation-Manager/static/media/instagram.f9250684.svg"
   },
   {
     "revision": "b70fdb05c95e8bd66ed09c657168a247",
@@ -120,16 +120,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Lead-Generation-Manager/static/media/mobileBackground.a72c9799.svg"
   },
   {
-    "revision": "7f43fb1b567581cad2183f235aa6abbb",
-    "url": "/Lead-Generation-Manager/static/media/mobileRoadmap.7f43fb1b.svg"
+    "revision": "c0a6159ef720910961d31b254a567fd3",
+    "url": "/Lead-Generation-Manager/static/media/mobileRoadmap.c0a6159e.svg"
   },
   {
     "revision": "7de182f1855690830451e5f057740594",
     "url": "/Lead-Generation-Manager/static/media/rectangle.7de182f1.svg"
   },
   {
-    "revision": "7fa22e0ed82a76b01da25b5e2758c172",
-    "url": "/Lead-Generation-Manager/static/media/roadmap.7fa22e0e.svg"
+    "revision": "04858a9810cfb8b811d9a094593620a6",
+    "url": "/Lead-Generation-Manager/static/media/roadmap.04858a98.svg"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
