@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be193b720e2271cd5c17e824ece028c6",
+    "revision": "cb8297338e11eede3a0a52c7fca89cbf",
     "url": "/Lead-Generation-Manager/index.html"
   },
   {
-    "revision": "37606794a9fd3218a629",
+    "revision": "1d12229e8e01d41a939d",
     "url": "/Lead-Generation-Manager/static/css/2.eeec9e7d.chunk.css"
   },
   {
-    "revision": "d259b4e53a670f676560",
-    "url": "/Lead-Generation-Manager/static/css/main.c80174c9.chunk.css"
+    "revision": "73b2ea59050499bdf25c",
+    "url": "/Lead-Generation-Manager/static/css/main.c885dd1c.chunk.css"
   },
   {
-    "revision": "37606794a9fd3218a629",
-    "url": "/Lead-Generation-Manager/static/js/2.24fe0e5a.chunk.js"
+    "revision": "1d12229e8e01d41a939d",
+    "url": "/Lead-Generation-Manager/static/js/2.7f3bda7f.chunk.js"
   },
   {
-    "revision": "d259b4e53a670f676560",
-    "url": "/Lead-Generation-Manager/static/js/main.42c9b3b6.chunk.js"
+    "revision": "73b2ea59050499bdf25c",
+    "url": "/Lead-Generation-Manager/static/js/main.83803311.chunk.js"
   },
   {
     "revision": "3206f4b5b5434f17d53e",
@@ -68,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Lead-Generation-Manager/static/media/John Fleming.83076a78.svg"
   },
   {
+    "revision": "099acf2aeefb5a253db3e2a0ef8f9ef9",
+    "url": "/Lead-Generation-Manager/static/media/LGM_WP.099acf2a.pdf"
+  },
+  {
     "revision": "d8025ad184765a1d9601625dd3d818da",
     "url": "/Lead-Generation-Manager/static/media/Oval.d8025ad1.svg"
   },
@@ -102,6 +106,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9276981a75eaad8652dd9f13e27745a6",
     "url": "/Lead-Generation-Manager/static/media/logoWithWhiteLabel.9276981a.svg"
+  },
+  {
+    "revision": "81bb7d01027555e93af13d5b50a27619",
+    "url": "/Lead-Generation-Manager/static/media/mobile-background.81bb7d01.svg"
+  },
+  {
+    "revision": "9d66c0145624ff26a5c7f938a33a0435",
+    "url": "/Lead-Generation-Manager/static/media/mobileBackground.9d66c014.svg"
+  },
+  {
+    "revision": "a72c97998f3d5b3088420d63a6cc13a9",
+    "url": "/Lead-Generation-Manager/static/media/mobileBackground.a72c9799.svg"
+  },
+  {
+    "revision": "7f43fb1b567581cad2183f235aa6abbb",
+    "url": "/Lead-Generation-Manager/static/media/mobileRoadmap.7f43fb1b.svg"
   },
   {
     "revision": "7de182f1855690830451e5f057740594",
