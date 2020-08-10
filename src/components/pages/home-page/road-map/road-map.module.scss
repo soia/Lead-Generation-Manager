@@ -5,6 +5,10 @@
     position: relative;
     margin-top: $desctop25px;
 
+    @media only screen and (max-width: 499px) {
+        margin-top: $mobile60px;
+    }
+
     &__title {
         font-family: $CeraProMedium;
         font-size: $desctop34px;
@@ -13,6 +17,17 @@
         text-align: center;
         padding-top: $desctop68px;
         padding-bottom: $desctop104px;
+
+        @media only screen and (max-width: 499px) {
+            font-size: $mobile20px;
+            line-height: $mobile32px;
+            padding-top: $mobile42px;
+            padding-bottom: $mobile55px;
+            position: absolute;
+            top: 7vw;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }
 
     &__roadMapImage {
@@ -21,6 +36,19 @@
         margin-bottom: 8vw;
         width: 75vw;
         height: 56.6vw;
+
+        @media only screen and (max-width: 499px) {
+            display: none;
+        }
+    }
+
+    &__mobileRoadmap {
+        display: none;
+
+        @media only screen and (max-width: 499px) {
+            display: block;
+            width: 100%;
+        }
     }
 
     &__background {
@@ -30,5 +58,9 @@
         left: 0;
         z-index: -1;
         height: 87vw;
+
+        @media only screen and (max-width: 499px) {
+            display: none;
+        }
     }
 }

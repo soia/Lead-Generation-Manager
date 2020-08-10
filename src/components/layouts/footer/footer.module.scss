@@ -7,9 +7,23 @@
     align-items: center;
     padding: $desctop20px $desctop178px;
 
+    @media only screen and (max-width: 499px) {
+        padding: $mobile20px $mobile12px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+    }
+
     &__logo img {
         width: $desctop120px;
         height: $desctop60px;
+
+        @media only screen and (max-width: 499px) {
+            width: 25vw;
+            height: 14vw;
+        }
     }
 
     &__socialIconsWrapper {
@@ -24,6 +38,12 @@
             width: $desctop14px;
             height: $desctop14px;
             display: flex;
+
+            @media only screen and (max-width: 499px) {
+                width: 4vw;
+                height: 4vw;
+                margin-right: 6vw;
+            }
         }
     }
 }

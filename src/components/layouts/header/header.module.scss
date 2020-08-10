@@ -9,9 +9,19 @@
     padding: $desctop25px $desctop178px $desctop25px 0;
     border-bottom: $desctop1px solid rgba(0, 0, 0, 0.08);
 
+    @media only screen and (max-width: 499px) {
+        margin-left: $mobile10px;
+        padding: $mobile10px $mobile10px $mobile10px 0;
+    }
+
     &__logo img {
         width: $desctop120px;
         height: $desctop60px;
+
+        @media only screen and (max-width: 499px) {
+            width: 25vw;
+            height: 14vw;
+        }
     }
 
     &__socialIconsWrapper {
@@ -26,6 +36,12 @@
             width: $desctop14px;
             height: $desctop14px;
             display: flex;
+
+            @media only screen and (max-width: 499px) {
+                width: 4vw;
+                height: 4vw;
+                margin-right: 6vw;
+            }
         }
     }
 }

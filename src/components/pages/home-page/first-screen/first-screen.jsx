@@ -2,7 +2,7 @@ import React from 'react';
 import ReactWOW from 'react-wow';
 import LGM_WP from '../../../assets/LGM_WP.pdf';
 import background from './images/firstScreenBg.svg';
-
+import mobileBackground from './images/mobile-background.svg';
 import style from './first-screen.module.scss';
 
 const FirstScreen = () => (
@@ -45,6 +45,11 @@ const FirstScreen = () => (
                 alt="background"
             />
         </ReactWOW>
+        <img
+            className={style.firstScreen__mobileBackground}
+            src={mobileBackground}
+            alt="mobileBackground"
+        />
     </div>
 );
 

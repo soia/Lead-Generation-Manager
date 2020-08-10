@@ -5,6 +5,14 @@
     position: relative;
     margin-bottom: 22vw;
 
+    @media only screen and (max-width: 499px) {
+        background-image: url("./images/mobileBackground.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 11vw;
+        margin-bottom: 11vw;
+    }
+
     &__title {
         font-family: $CeraProMedium;
         font-size: $desctop34px;
@@ -12,6 +20,13 @@
         color: #000;
         text-align: center;
         padding: $desctop68px 0 $desctop40px 0;
+
+        @media only screen and (max-width: 499px) {
+            font-size: $mobile20px;
+            line-height: $mobile32px;
+            padding-top: $mobile20px;
+            padding-bottom: 5vw;
+        }
     }
 
     &__subTitle {
@@ -20,16 +35,33 @@
         line-height: $desctop32px;
         color: #C8073A;
         text-align: center;
+
+        @media only screen and (max-width: 499px) {
+            font-size: 3.7vw;
+            line-height: $mobile20px;
+            padding: 0 21vw;
+            margin-bottom: 12vw;
+        }
     }
 
     &__basicPrinciplesWrapper {
         margin: $desctop90px $desctop160px;
         display: flex;
         justify-content: space-between;
+
+        @media only screen and (max-width: 499px) {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     &__basicPrinciples {
         width: 19.6vw;
+
+        @media only screen and (max-width: 499px) {
+            width: 90%;
+            margin-bottom: $mobile42px;
+        }
 
         &_rectangle {
             background: #DA2756;
@@ -38,6 +70,11 @@
             width: $desctop25px;
             height: $desctop25px;
             margin: 0 auto;
+
+            @media only screen and (max-width: 499px) {
+                width: $mobile20px;
+                height: $mobile20px;
+            }
         }
 
         &_title {
@@ -48,6 +85,13 @@
             color: #2F281E;
             margin: $desctop30px 0 $desctop10px;
             height: $desctop68px;
+
+            @media only screen and (max-width: 499px) {
+                font-size: $mobile16px;
+                line-height: $mobile20px;
+                height: fit-content;
+                margin: $mobile24px 0 $mobile24px;
+            }
         }
 
         &_subTitle {
@@ -56,11 +100,20 @@
             line-height: $desctop20px;
             text-align: center;
             color: #5C5040;
+
+            @media only screen and (max-width: 499px) {
+                font-size: 4vw;
+                line-height: $mobile16px;
+            }
         }
     }
 
     &__principleOperation {
         margin: 0 $desctop160px;
+
+        @media only screen and (max-width: 499px) {
+            margin: 0 $mobile12px;
+        }
 
         &_title {
             font-family: $CeraProMedium;
@@ -69,6 +122,12 @@
             line-height: $desctop32px;
             color: #C8073A;
             margin-bottom: $desctop32px;
+
+            @media only screen and (max-width: 499px) {
+                font-size: 3.7vw;
+                line-height: $mobile20px;
+                margin-bottom: $mobile30px;
+            }
         }
 
         &_subTitle {
@@ -77,6 +136,11 @@
             line-height: $desctop30px;
             text-align: center;
             color: #000;
+
+            @media only screen and (max-width: 499px) {
+                font-size: 4vw;
+                line-height: 6vw;
+            }
         }
     }
 
@@ -86,5 +150,23 @@
         z-index: -1;
         width: 100vw;
         height: 71.7vw;
+
+        @media only screen and (max-width: 499px) {
+           display: none;
+        }
+    }
+
+    &__mobileBackground {
+        display: none;
+
+        @media only screen and (max-width: 499px) {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+        }
     }
 }

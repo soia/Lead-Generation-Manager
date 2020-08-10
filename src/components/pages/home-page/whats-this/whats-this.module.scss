@@ -4,6 +4,10 @@
 .whatsThis {
     margin: 0 $desctop160px $desctop160px $desctop160px;
 
+    @media only screen and (max-width: 499px) {
+        margin: 0 $mobile12px $mobile42px;
+    }
+
     &__title {
         font-family: $CeraProMedium;
         font-size: $desctop34px;
@@ -11,6 +15,12 @@
         color: #000;
         text-align: center;
         margin-bottom: $desctop32px;
+
+        @media only screen and (max-width: 499px) {
+            font-size: $mobile20px;
+            line-height: $mobile32px;
+            margin-bottom: $mobile34px;
+        }
     }
 
     &__subTitle {
@@ -20,5 +30,11 @@
         text-align: center;
         color: #000;
         margin-bottom: $desctop32px;
+
+        @media only screen and (max-width: 499px) {
+            font-size: 4vw;
+            line-height: 6vw;
+            margin-bottom: 8vw;
+        }
     }
 }
