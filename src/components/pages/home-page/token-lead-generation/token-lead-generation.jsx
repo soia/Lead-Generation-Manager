@@ -61,7 +61,7 @@ const TokenLeadGeneration = () => (
                         </div>
                     </div>
                 </div>
-                <p className={style.totalCapitalization}>Total capitalization: 21 000 000 million</p>
+                <p className={style.totalCapitalization}>Total capitalization: 21 000 000 LGM</p>
             </section>
         </ReactWOW>
         <img
