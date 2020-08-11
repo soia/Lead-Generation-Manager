@@ -33,35 +33,67 @@ const TokenLeadGeneration = () => (
                 <p className={style.tokenDistribution}>Token Distribution</p>
                 <div className={style.tokenDistribution__wrapper}>
                     <div className={style.tokenDistribution__item}>
-                        <img className={style.tokenDistribution__item_img} src={oval} alt="oval" />
+                        <img
+                            className={style.tokenDistribution__item_img}
+                            src={oval}
+                            alt="oval"
+                        />
                         <div>
                             <p className={style.tokenDistribution__item_title}>IEO</p>
-                            <p className={style.tokenDistribution__item_subTitle}>10 000 000 LGM</p>
+                            <p className={style.tokenDistribution__item_titleSub} />
+                            <p className={style.tokenDistribution__item_subTitle}>
+                                10 000 000 LGM
+                            </p>
                         </div>
                     </div>
                     <div className={style.tokenDistribution__item}>
-                        <img className={style.tokenDistribution__item_img} src={oval} alt="oval" />
+                        <img
+                            className={style.tokenDistribution__item_img}
+                            src={oval}
+                            alt="oval"
+                        />
                         <div>
                             <p className={style.tokenDistribution__item_title}>Airdrop</p>
-                            <p className={style.tokenDistribution__item_subTitle}>5 000 000 LGM</p>
+                            <p className={style.tokenDistribution__item_titleSub}>will be freezed till 20/09/2020</p>
+                            <p className={style.tokenDistribution__item_subTitle}>
+                                5 000 000 LGM
+                            </p>
                         </div>
                     </div>
                     <div className={style.tokenDistribution__item}>
-                        <img className={style.tokenDistribution__item_img} src={oval} alt="oval" />
+                        <img
+                            className={style.tokenDistribution__item_img}
+                            src={oval}
+                            alt="oval"
+                        />
                         <div>
-                            <p className={style.tokenDistribution__item_title}>Staking Pool</p>
-                            <p className={style.tokenDistribution__item_subTitle}>5 000 000 LGM</p>
+                            <p className={style.tokenDistribution__item_title}>
+                                Staking Pool
+                            </p>
+                            <p className={style.tokenDistribution__item_titleSub} />
+                            <p className={style.tokenDistribution__item_subTitle}>
+                                5 000 000 LGM
+                            </p>
                         </div>
                     </div>
                     <div className={style.tokenDistribution__item}>
-                        <img className={style.tokenDistribution__item_img} src={oval} alt="oval" />
+                        <img
+                            className={style.tokenDistribution__item_img}
+                            src={oval}
+                            alt="oval"
+                        />
                         <div>
                             <p className={style.tokenDistribution__item_title}>Team</p>
-                            <p className={style.tokenDistribution__item_subTitle}>1 000 000 LGM</p>
+                            <p className={style.tokenDistribution__item_titleSub}>will be freezed till 01/12/2020</p>
+                            <p className={style.tokenDistribution__item_subTitle}>
+                                1 000 000 LGM
+                            </p>
                         </div>
                     </div>
                 </div>
-                <p className={style.totalCapitalization}>Total capitalization: 21 000 000 LGM</p>
+                <p className={style.totalCapitalization}>
+                    Total capitalization: 21 000 000 LGM
+                </p>
             </section>
         </ReactWOW>
         <img

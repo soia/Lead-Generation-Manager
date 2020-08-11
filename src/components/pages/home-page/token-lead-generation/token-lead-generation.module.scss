@@ -145,6 +145,20 @@
             }
         }
 
+        &_titleSub {
+            font-family: $CeraProLight;
+            font-size: 1vw;
+            line-height: 1.8vw;
+            color: #fff;
+            min-height: $desctop25px;
+
+            @media only screen and (max-width: 499px) {
+                font-size: 3vw;
+                line-height: 4.8vw;
+                margin-bottom: 1vw;
+            }
+        }
+
         &_subTitle {
             font-family: $CeraProMedium;
             font-size: $desctop20px;
