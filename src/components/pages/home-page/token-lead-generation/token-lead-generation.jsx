@@ -54,7 +54,9 @@ const TokenLeadGeneration = () => (
                         />
                         <div>
                             <p className={style.tokenDistribution__item_title}>Airdrop</p>
-                            <p className={style.tokenDistribution__item_titleSub}>will be freezed till 20/09/2020</p>
+                            <p className={style.tokenDistribution__item_titleSub}>
+                                will be frozen till 20/09/2020
+                            </p>
                             <p className={style.tokenDistribution__item_subTitle}>
                                 5 000 000 LGM
                             </p>
@@ -84,7 +86,9 @@ const TokenLeadGeneration = () => (
                         />
                         <div>
                             <p className={style.tokenDistribution__item_title}>Team</p>
-                            <p className={style.tokenDistribution__item_titleSub}>will be freezed till 01/12/2020</p>
+                            <p className={style.tokenDistribution__item_titleSub}>
+                                will be frozen till 01/12/2020
+                            </p>
                             <p className={style.tokenDistribution__item_subTitle}>
                                 1 000 000 LGM
                             </p>
